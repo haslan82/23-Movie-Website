@@ -66,6 +66,7 @@ main {
     box-shadow: 0 5px 6px rgba(0, 0, 0, 0.25);
     position: relative;
     border-radius: 3px;
+    overflow: hidden;
 }
 .movie img{
     width: 100%;
@@ -114,4 +115,32 @@ color: lightcoral;
     margin-bottom: 0.5rem;
     border-bottom: 2px solid #79b8f3;
     width: 35%;
+}
+footer{
+    background-color: var(--asistant-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+footer h3{
+    letter-spacing: 5px;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+footer ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 1rem;
+}
+footer ul li a{
+    color: #2066a0;
+    text-decoration: none;
+    font-size: 1rem;
+}
+footer small{
+    margin-top: 0.5rem;
+    color: #8197a4;
+    font-size: 0.8rem;
 }
