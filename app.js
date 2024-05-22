@@ -1,14 +1,17 @@
-// const API_URL =
-//   'https://api.themoviedb.org/3/authentication'
-//   eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhY2NiY2ZjN2I0MTc2MTg2ZDYxZTEyYzM4OWQ2Y2RlZCIsInN1YiI6IjY2NDg2M2NkOGVlN2Y4MWUyZDkyNjNhYiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.LMPGZNDHml4vs1dmvsMe-3uUV0d51MWPZNpqowzYMOs
-// const IMG_PATH = 'https://image.tmdb.org/t/p/w1280'
-// const SEARCH_API =
-//   'https://api.themoviedb.org/3/movie/550?api_key=accbcfc7b4176186d61e12c389d6cded'
 
-  const API_KEY = "fa11533dc287e0328c693aac9ffe5461";
-  const API_URL = `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}&page=1`;
-  const IMG_PATH = `https://image.tmdb.org/t/p/w1280`;
-  const SEARCH_API = `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=`;
+  // const API_KEY = "fa11533dc287e0328c693aac9ffe5461";
+  // const API_URL = `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}&page=1`;
+  // const IMG_PATH = `https://image.tmdb.org/t/p/w1280`;
+  // const SEARCH_API = `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=`;
+
+
+
+  const API_URL =
+  "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=702327d8f5a8e8a2fb179c1ededa7168&page=1";
+const IMG_PATH = "https://image.tmdb.org/t/p/w1280";
+const SEARCH_API =
+  "https://api.themoviedb.org/3/search/movie?api_key=702327d8f5a8e8a2fb179c1ededa7168&query=";
+
 
 
 
